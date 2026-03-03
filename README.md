@@ -1,4 +1,4 @@
-# dailyTasksApp
+# DailyTasksApp
 ## Descrição:
 O 'DailyTask' é um projeto de desenvolvimento de uma plataforma para a organização de tarefas diárias e personalizadas, onde o usuário irá poder acrescentar todas as suas metas, sendo elas diárias ou semanais, usar o calendário e inserir eventos nele, acompanhar o progresso pessoal a partir dos gráficos, tudo isso com uma IA local integrada ao app.
 
