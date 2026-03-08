@@ -1,0 +1,107 @@
+/*    Personalização padrão     */
+/*            Geral             */
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: #121212;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+
+}
+main{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+
+}
+footer{
+
+    background-color: #202020;
+    padding: 30px 100px 30px;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+
+}
+
+
+
+/*      Logo e cabeçalho    */
+.logo{
+
+    position: relative;
+    margin-left: 50px;
+    color: #8c52ff;
+    margin-top: 20px;
+    font-size: 60px; 
+
+} 
+
+
+
+/*              Menu            */
+#menuLateral{
+
+    line-height: 60px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+    width: 240px;
+
+}
+.menu{
+
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin-left: -34px;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+
+/*    Botões laterais     */
+/*        Padrão          */
+.botaoLateral{
+
+    border: 1px solid #202020;
+    background-color: #202020;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: #ffffff;
+
+}
+.botaoLateral:hover{
+
+    border-color: #8c52ff;
+    transition: 0.4s;
+    color:#8c52ff;
+
+}
+.direitosReservados{
+
+    text-align: center;
+    color: #ffffff;
+
+}
+
+
+/*        Botões Laterais       */
+/*      Específico por página   */
+#botaoConfiguracoes{
+
+    background-color: #8c52ff;
+    border-color: #8c52ff;
+    color: #ffffff;
+
+}
