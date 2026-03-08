@@ -8,13 +8,14 @@ Desenvolver uma aplicação leve, fluída e offline para melhor usabilidade do u
 ## Uso:
 Inicialmente, será desenvolvido para meu uso pessoal e aprimoramento do conhecimento na área, para que daí, seja possível disponibilizar para uso geral.
 
+<!--
 ## Stack:
 - Python
 - SQLite
 - FastAPI
 - HTML/CSS/JS
 - IA local (planejado)
-
+-->
 ## Status:
-Em desenvolvimento!
+Em desenvolvimento inicial!
 
