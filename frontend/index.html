@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+    <!-- Head e Header serão comuns entre as páginas-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DailyTask</title>
+        <link rel="stylesheet" href="style.css">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="blocoLogo">
+                <h1 class="logo"><i>DailyTask</i></h1>
+            </div>
+        </header>
+
+        <!-- Menu será comum entre as páginas-->
+         <div class="layout">
+            <div id="menuLateral">
+                <a href="index.html"            id="botaoDashboard"         class="botaoLateral">Dashboard</a>
+                <a href="estatisticas.html"     id="botaoEstatisticas"      class="botaoLateral">Estatísticas</a>
+                <a href="calendario.html"       id="botaoCalendario"        class="botaoLateral">Calendário</a>
+                <a href="chat.html"             id="botaoChat"              class="botaoLateral">Chat com IA</a>
+                <a href="configuracoes.html"    id="botaoConfiguracoes"     class="botaoLateral">Configurações</a>
+            </div>
+
+            <!-- Conteúdo específico do Dashboard-->
+            <main>
+                <div>
+                    <div class="blocoDoGrafico">
+                        Gráfico 1
+                    </div>
+                </div>
+
+                <div>
+                    <p class="blocoDeMetas">
+                        Gráfico 2
+                    </p>
+                </div>
+            </main>
+
+            <section id="blocosDeMetasGeral">
+                <div class="blocos">
+                    <div class="blocoDasMetas">             
+                        <button class="botaoConfirmarMeta">✔</button>
+                        <h3 class="tituloDaMeta">Meta 1</h3>
+                        <p>Exemplo de descrição para a a primeira meta estabelecida.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+<!-- Footer será comum entre as páginas-->
+    <footer>
+        <p class="direitosReservados">&copy; 2026 DailyTask. Todos os direitos reservados.</p>
+    </footer>
+
+    </body>
+</html> 
